@@ -34,11 +34,6 @@
             <v-icon @click="sendMessage" class="btn btn-primary no-outline rounded-btn w-100">
               Send
             </v-icon>
-
-
-
-            
-
           </div>
         </div>
       </div>

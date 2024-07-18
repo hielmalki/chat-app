@@ -86,7 +86,7 @@ export default {
           this.newMessage = '';
           await this.loadMessages();
 
-          // Holen Sie die Antwort des Chatbots
+          // Holt die Antwort des Chatbots
           const botResponse = await chatService.getChatbotResponse(message.content);
           console.log('Bot Response:', botResponse);
           const botMessage = {
